@@ -1,5 +1,5 @@
-#ifndef __vector1ONTAINER_H__
-#define __vector1ONTAINER_H__
+#ifndef __VECTORCONTAINER_H__
+#define __VECTORCONTAINER_H__
 
 #include  	"container.h";
 #include <iostream>
@@ -10,14 +10,14 @@
 using namespace std;
 
 
-class vector1ontainer : public Container
+class VectorContainer : public Container
 {
 	protected:
 		vector<Base*> vector1;
 		Base* child;
 	public:
-		vector1ontainer(): child(NULL) {}
-		vector1ontainer(Sort* vectors): child(NULL)
+		vectorContainer(): child(NULL) {}
+		vectorContainer(Sort* vectors): child(NULL)
 		{
 			sort_function = vectors;
 		}

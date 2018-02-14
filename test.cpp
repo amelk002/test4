@@ -19,7 +19,6 @@
 #include "Floor.h"
 #include "SelectionSort.h"
 
-
 using namespace std;
 
 int main() {
