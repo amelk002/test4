@@ -9,4 +9,3 @@ class Add : public composite{
 		double evaluate();
 };
 #endif
-

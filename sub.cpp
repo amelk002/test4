@@ -10,4 +10,3 @@ Sub::Sub(Base* left, Base* right){
 double Sub::evaluate(){
 	return left->evaluate() - right->evaluate();
 }
-

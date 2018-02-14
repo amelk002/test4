@@ -9,4 +9,3 @@ class Div : public composite {
 		double evaluate();
 };
 #endif
-

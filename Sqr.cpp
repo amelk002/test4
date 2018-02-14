@@ -7,5 +7,3 @@ Sqr::Sqr(Base* left){
 double Sqr::evaluate(){
 	return(left->evaluate()) * (left->evaluate());
 }
-
-

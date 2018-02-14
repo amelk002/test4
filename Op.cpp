@@ -10,4 +10,3 @@ Op::Op(double op){
 double Op::evaluate(){
 	return op;
 }
-

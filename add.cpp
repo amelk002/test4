@@ -10,4 +10,3 @@ Add::Add(Base* left, Base* right){
 double Add::evaluate(){
 	return left->evaluate() + right->evaluate();
 }
-

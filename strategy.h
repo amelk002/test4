@@ -2,7 +2,7 @@
 #define __STRATEGY_H__
 
 class Sort {
-    public: 
+    public:
         /* Constructors */
         Sort();
 

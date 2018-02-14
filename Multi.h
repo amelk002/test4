@@ -9,4 +9,3 @@ class Mult : public composite{
 		double evaluate();
 };
 #endif
-

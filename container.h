@@ -1,5 +1,11 @@
 #ifndef __CONTAINER_H__
 #define __CONTAINER_H__
+#include "strategy.h";
+#include <iostream>
+#include <vector>
+#include <list>
+#include <math.h>
+#include <cmath>
 
 class Container {
     protected:

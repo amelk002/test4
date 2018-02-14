@@ -9,4 +9,3 @@ Div::Div(Base* left, Base* right){
 double Div::evaluate(){
 	return left->evaluate() / right->evaluate();
 }
-

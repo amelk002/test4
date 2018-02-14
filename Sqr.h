@@ -10,4 +10,3 @@ class Sqr : public composite{
 		double evaluate();
 };
 #endif
-
